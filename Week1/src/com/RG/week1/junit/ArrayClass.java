@@ -1,0 +1,60 @@
+package com.RG.week1.junit;
+
+public class ArrayClass {
+//	public static int sum(int arr[])
+//	{
+//	  int s=0;
+//	  for(int i=0;i<arr.length;i++)
+//	     s=s+arr[i];
+//	  return s;
+//	}
+//	public static int Average(int arr[])
+//	{
+//	  int s=0;
+//	  for(int i=0;i<arr.length;i++)
+//	     s=s+arr[i];
+//	  int avg = s/arr.length;
+//	  return avg;
+//	}
+//	public static int greateThanAverage(int arr[])
+//	{
+//	  int count=0;
+//	  for(int i=0;i<arr.length;i++)
+//	    if(arr[i]>Average(arr))
+//	      count++;
+//	  return count;
+//	}
+//	public static int countEven(int arr[])
+//	{
+//	  int count=0;
+//	  for(int i=0;i<arr.length;i++)
+//	      if(arr[i]%2==0)
+//	         count++;
+//	  return count;
+//	}
+//	public static int countOdd(int arr[])
+//	{
+//	  int count=0;
+//	  for(int i=0;i<arr.length;i++)
+//	      if(arr[i]%2!=0)
+//	         count++;
+//	  return count;
+//	}
+	public static Boolean isPass(int mark)
+	{
+		return (mark>=60);
+	}
+	public static char grade(int mark)
+	{
+		if(mark>=90)
+			return 'A';
+		else if(mark>=80)
+			return 'B';
+		else if(mark>=70)
+			return 'C';
+		else if(mark>=60)
+			return 'D';
+		else
+			return 'F';
+	}
+}
